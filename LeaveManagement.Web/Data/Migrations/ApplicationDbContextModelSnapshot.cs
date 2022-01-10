@@ -21,7 +21,7 @@ namespace LeaveManagement.Web.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
-
+             
             modelBuilder.Entity("LeaveManagement.Web.Data.Employee", b =>
                 {
                     b.Property<string>("Id")
